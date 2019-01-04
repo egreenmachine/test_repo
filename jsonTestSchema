@@ -35,6 +35,9 @@
     },
     "missing": {
       "type": "string"
+    },
+    "missingTest": {
+      "type": "string"
     }
   }
 }
