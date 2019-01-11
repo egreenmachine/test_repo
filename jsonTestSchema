@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "title": "test_table2",
+  "title": "test_table",
   "description": "A test schema used in Fivetran unit tests",
   "properties": {
     "action": {
