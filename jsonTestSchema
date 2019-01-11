@@ -3,40 +3,52 @@
   "title": "test_table",
   "description": "A test schema used in Fivetran unit tests",
   "properties": {
-    "boolean": {
-      "type": "boolean"
-    },
-    "string": {
+    "action": {
       "type": "string"
     },
-    "string10": {
-      "type": "string",
-      "maxLength": 10
+    "page_type": {
+      "type": "string"
     },
-    "integer": {
+    "reps_available": {
       "type": "integer"
     },
-    "integer1000": {
-      "type": "integer",
-      "maximum": 1000
+    "audio": {
+      "type": "boolean"
     },
-    "double": {
-      "type": "number"
+    "video": {
+      "type": "boolean"
     },
-    "decimal": {
-      "type": "number",
-      "multipleOf": 0.001
+    "organization_id": {
+      "type": "integer"
     },
-    "array": {
-      "type": "array",
-      "items": {
-        "type": "integer"
-      }
+    "target": {
+      "type": "string",
     },
-    "missing": {
+    "target_type": {
       "type": "string"
     },
-    "missingTest": {
+    "config_uuid": {
+      "type": "string"
+    },
+    "voicemailbox": {
+      "type": "string"
+    },
+    "hide_name_entry_field": {
+      "type": "boolean"
+    },
+    "testing": {
+      "type": "boolean"
+    },
+    "bhr_open": {
+      "type": "boolean"
+    },
+    "ouid": {
+      "type": "string"
+    },
+    "session_load_id": {
+      "type": "string"
+    },
+    "caller_display_name": {
       "type": "string"
     }
   }
