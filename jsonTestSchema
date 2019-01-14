@@ -9,6 +9,9 @@
     "page_type": {
       "type": "string"
     },
+    "button_type": {
+      "type": "string"
+    },
     "reps_available": {
       "type": "integer"
     },
@@ -39,7 +42,10 @@
     "testing": {
       "type": "boolean"
     },
-    "bhr_open": {
+    "bhr_pass": {
+      "type": "boolean"
+    },
+    "domain_filter_pass": {
       "type": "boolean"
     },
     "ouid": {
