@@ -1,12 +1,12 @@
 {
   "type": "object",
-  "title": "test_table2",
+  "title": "test_table3",
   "description": "A test schema used in Fivetran unit tests",
   "properties": {
     "action": {
       "type": "string"
     },
-    "page_type": {
+    "product": {
       "type": "string"
     },
     "button_type": {
@@ -15,10 +15,22 @@
     "reps_available": {
       "type": "integer"
     },
-    "audio": {
+    "audio_config": {
       "type": "boolean"
     },
-    "video": {
+    "audio_available": {
+      "type": "boolean"
+    },
+    "audio_call": {
+      "type": "boolean"
+    },
+    "video_config": {
+      "type": "boolean"
+    },
+    "video_available": {
+      "type": "boolean"
+    },
+    "video_call": {
       "type": "boolean"
     },
     "organization_id": {
