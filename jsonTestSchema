@@ -1,73 +1,61 @@
 {
   "type": "object",
-  "title": "test_table3",
-  "description": "A test schema used in Fivetran unit tests",
+  "title": "egreen_test_schema",
+  "description": "Schema of events that are triggered from the onboarding portion of signup",
   "properties": {
-    "action": {
+    "session_load_id": {
       "type": "string"
-    },
-    "product": {
-      "type": "string"
-    },
-    "button_type": {
-      "type": "string"
-    },
-    "reps_available": {
-      "type": "integer"
-    },
-    "audio_config": {
-      "type": "boolean"
-    },
-    "audio_available": {
-      "type": "boolean"
-    },
-    "audio_call": {
-      "type": "boolean"
-    },
-    "video_config": {
-      "type": "boolean"
-    },
-    "video_available": {
-      "type": "boolean"
-    },
-    "video_call": {
-      "type": "boolean"
-    },
-    "organization_id": {
-      "type": "integer"
-    },
-    "target": {
-      "type": "string"
-    },
-    "target_type": {
-      "type": "string"
-    },
-    "config_uuid": {
-      "type": "string"
-    },
-    "voicemailbox": {
-      "type": "string"
-    },
-    "hide_name_entry_field": {
-      "type": "boolean"
     },
     "testing": {
       "type": "boolean"
     },
-    "bhr_pass": {
+    "email" : {
+      "type": "string"
+    },
+    "account_type": {
+      "type": "string"
+    },
+    "account_plan": {
+      "type": "string"
+    },
+    "organization_name": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "funnel_step": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "organization_id": {
+      "type": "integer"
+    },
+    "account_id": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "content_management_system": {
+      "type": "string"
+    },
+    "accent_color": {
+      "type": "string"
+    },
+    "button_color": {
+      "type": "string"
+    },
+    "touched": {
       "type": "boolean"
-    },
-    "domain_filter_pass": {
-      "type": "boolean"
-    },
-    "ouid": {
-      "type": "string"
-    },
-    "session_load_id": {
-      "type": "string"
-    },
-    "caller_display_name": {
-      "type": "string"
     }
   }
 }
